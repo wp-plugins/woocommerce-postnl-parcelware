@@ -6,7 +6,7 @@ Tested up to: 3.6
 Stable tag: 0.2
 License: GPLv2
 
-This plugin exports all selected orders to Parcelware. - Free version
+This plugin exports all selected orders to PostNL Parcelware.
 == Description ==
 ***Quickly export selected orders to PostNL Parcelware.***
 
@@ -16,25 +16,28 @@ Quickly create a CSV file for Parcelware.
 For more information, check out [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 **Free version**
+
 The plugin adds a new side panel on the order page and a button (with or without shipping costs) in the Actions column to allow shop managers to export your orders to Parcelware on the fly. 
 After export it shows the export date and time for further reference.
 
 After export you can easily import your WooCommerce Orders in PostNL Parcelware.
 
-The free version may be used as is. If you want more options and support you can buy WooCommerce PostNL Parcelware Pro for only € 29,00.
+The free version may be used as is. If you want more options and support you can buy WooCommerce PostNL Parcelware Pro for only &euro; 29,00.
 
 **PRO version**
+
 For a full list of features, please visit [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 **Dutch / Nederlands**
+
 Met de WooCommerce PostNL Parcelware plugin exporteer je eenvoudig al je WooCommerce bestellingen naar een CSV bestand geschikt voor PostNL Parcelware.
 Parcelware is de software van PostNL waarmee u pakketten klaar maakt voor verzending. Met de WooCommerce PostNL Parcelware plugin bespaart je tijd en kosten en kan je je bezig houden met je onderneming.
 
-De gratis versie van de plugin heeft een *snelle export* functie waarmee je in 1 klik alle bestellingen met een bepaalde bestelstatus kunt exporteren.
-Op de besteloverzicht pagina wordt in de "Acties" kolom een *nieuwe knop* - PostNL oranje ;-) - getoond waarin je ook de *verzendkosten* kunt tonen. Met deze knop exporteer je eenvoudig een enkele bestelling.
-Ook vanuit de bestelling detail pagina kan je naar Parcelware exporteren en de *laatste export datum* zien.
+De gratis versie van de plugin heeft een **snelle export** functie waarmee je in 1 klik alle bestellingen met een bepaalde bestelstatus kunt exporteren.
+Op de besteloverzicht pagina wordt in de "Acties" kolom een **nieuwe export knop** - PostNL oranje ;-) - getoond waarin je ook de **verzendkosten** kunt tonen. Met deze knop exporteer je eenvoudig een enkele bestelling.
+Ook vanuit de bestelling detail pagina kan je naar Parcelware exporteren en de **laatste export datum** zien.
 
-*Let op:* deze plugin heeft geen directe koppeling met Parcelware, maar exporteerd een CSV bestand dat je eenvoudig in Parcelware kunt importeren.
+**Let op:** deze plugin heeft geen directe koppeling met Parcelware, maar exporteerd een CSV bestand dat je eenvoudig in Parcelware kunt importeren.
 
 Met de betaalde versie van WooCommerce PostNL Parcelware heb je nog meer mogelijkheden, waaronder het in "bulk" exporteren van diverse bestellingen vanuit de besteloverzicht pagina en het automatisch wijzigen van de bestelstatus na exporteren.
 Voor een volledig overzicht van alle PRO functies bezoek je [onze website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
@@ -73,4 +76,4 @@ You may use the free version as it is. When you buy WooCommerce PostNL Parcelwar
 For a full list of features, please check out [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 = Why is there a PRO version? = 
-We want to give everyone the opportunity to use and try our plugins, but if you want to get more options and access to our support section you can buy our PRO version. WooCommerce PostNL Parcelware Pro costs only **€ 29,00**.
+We want to give everyone the opportunity to use and try our plugins, but if you want to get more options and access to our support section you can buy our PRO version. WooCommerce PostNL Parcelware Pro costs only **&euro; 29,00**.
