@@ -1,6 +1,6 @@
 === WooCommerce PostNL Parcelware ===
 Contributors: Bart Pluijms
-Tags: woocommerce
+Tags: woocommerce, postnl, parcelware
 Requires at least: 3.3
 Tested up to: 3.6
 Stable tag: 0.2
