@@ -22,7 +22,7 @@ After export it shows the export date and time for further reference.
 
 After export you can easily import your WooCommerce Orders in PostNL Parcelware.
 
-The free version may be used as is. If you want more options and support you can buy WooCommerce PostNL Parcelware Pro for only &euro; 29,00.
+The free version may be used as is. If you want more options and support you can buy WooCommerce PostNL Parcelware Pro for only &euro; 49,00.
 
 **PRO version**
 
@@ -76,4 +76,4 @@ You may use the free version as it is. When you buy WooCommerce PostNL Parcelwar
 For a full list of features, please check out [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 = Why is there a PRO version? = 
-We want to give everyone the opportunity to use and try our plugins, but if you want to get more options and access to our support section you can buy our PRO version. WooCommerce PostNL Parcelware Pro costs only **&euro; 29,00**.
+We want to give everyone the opportunity to use and try our plugins, but if you want to get more options and access to our support section you can buy our PRO version. WooCommerce PostNL Parcelware Pro costs only **&euro; 49,00**.
