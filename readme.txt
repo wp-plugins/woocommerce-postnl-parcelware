@@ -3,7 +3,7 @@ Contributors: Bart Pluijms
 Tags: woocommerce, postnl, parcelware
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2
 
 This plugin exports all selected orders to PostNL Parcelware.
@@ -61,6 +61,9 @@ Go to WooCommerce > Parcelware, configure and start exporting. Simple!
 
 == Changelog ==
 ***WooCommerce PostNL Parcelware***
+= 2013.08.20 - version 0.3 =
+* Fixed: several small bugs
+
 = 2013.08.01 - version 0.2 =
 * Added: order export date, now you can see when an order is exported to Parcelware
 

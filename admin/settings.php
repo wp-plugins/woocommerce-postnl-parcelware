@@ -183,7 +183,7 @@ function WooParc_page() {
 						<h3><?php _e( 'Buy Pro!', 'woo-parc' ); ?></h3>
 						<div class="inside parc-preview">
 							<p><?php echo __( 'Check out our ', 'woo-parc' ); ?> <a href="http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/">website</a> <?php _e('to find out more about WooCommerce PostNL Parcelware Pro.', 'woo-parc' );?></p>
-							<p><?php _e('For only &euro; 25,00 you will get a lot of features and access to our support section.', 'woo-parc' );?></p>
+							<p><?php _e('For only &euro; 49,00 you will get a lot of features and access to our support section.', 'woo-parc' );?></p>
 							<p><?php _e('A couple of features:', 'woo-parc' );?>
 							<ul style="list-style:square;padding-left:20px;margin-top:-10px;"><li><?php _e('Define your own export filename.', 'woo-parc' );?></li><li><?php _e('Bulk export orders to Parcelware.', 'woo-parc' );?></li><li><?php _e('Change order status after export.', 'woo-parc' );?></li><li><?php _e('Define export based on shipping method & shipping cost.', 'woo-parc' );?></li><li><?php _e('Replace checkout field address in seperated fields for street, number and extension.', 'woo-parc' );?></li><li><?php _e('Backup last export and restore it.', 'woo-parc' );?></li></ul>
 						</div>
