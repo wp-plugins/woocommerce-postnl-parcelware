@@ -2,7 +2,7 @@
 Contributors: Bart Pluijms, bpluijms
 Tags: woocommerce, postnl, parcelware
 Requires at least: 3.3
-Tested up to: 3.7.1
+Tested up to: 3.8
 Stable tag: 0.3
 License: GPLv2
 
