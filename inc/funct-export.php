@@ -191,6 +191,8 @@ function WooParc_exportdata($order_id,$single=false,$quick=false) {
 	$set_data['Postcode']=$order->shipping_postcode;
 	$set_data['City']=$order->shipping_city;
 	$set_data['Region']=$order->shipping_state;
+	if(!isset($order->shipping_country) || $order->shipping_country=="") $order->shipping_country=$order->billing_country;
+	if($order->shipping_country=="") $order->shipping_country=get_option( 'woocommerce_default_country');
 	$full_country=__($woocommerce->countries->countries[$order->shipping_country],'woocommerce');
 	$set_data['Country']=$full_country;
 	$set_data['Phone']=$order->billing_phone;

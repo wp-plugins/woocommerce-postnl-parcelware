@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce PostNL Parcelware
 Plugin URI: http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/
 Description: This plugin exports all selected orders to Parcelware. - FREE version
-Version: 0.3
+Version: 0.4
 Author: Bart Pluijms
 Author URI: http://www.geev.nl/
 */
@@ -49,10 +49,14 @@ if (in_array('woocommerce/woocommerce.php',get_option('active_plugins'))) {
 	if(get_option('wooparc_actions',0)==1) {
 		add_action( 'manage_shop_order_posts_custom_column', 'WooParc_order_actions', 3 );
 	}
-	if(get_option( 'wooparc_actions_price',0)==2) {
+	/*if(get_option( 'wooparc_actions_price',0)==2) {
 		add_action( 'manage_shop_order_posts_custom_column', 'WooParc_order_shipping', 3 );
-	}
+	}*/
 	
+	if(get_option('wooparc_address2',1)==0) {
+		add_filter( 'woocommerce_checkout_fields' , 'WooParc_removeAddress2' );
+	}
+
 } else {
 	// if WooCommerce is not active show admin message
 	function WooParc_Message() {
