@@ -226,19 +226,35 @@ function WooParc_quickdata() {
 	
 	$status=get_option( 'wooparc_orderstatus' );
 	$status_args='';
-	if($status!="" && isset($status)) {
-		$status_args=array(
-				'taxonomy' => 'shop_order_status',
-				'field' => 'slug',
-				'terms' => array($status)
-			);
-	}
-	$args = array(
-		'post_type'	=> 'shop_order',
-		'post_status' => 'publish',
-		'posts_per_page' => -1,
-		'tax_query' => array($status_args)
-	);
+	    if ( version_compare( WOOCOMMERCE_VERSION, "2.2" ) < 0 ) {
+
+    	if($status!="" && isset($status)) {
+    		$status_args=array(
+    				'taxonomy' => 'shop_order_status',
+    				'field' => 'slug',
+    				'terms' => array($status)
+    			);
+    	}
+    	$args = array(
+    		'post_type'	=> 'shop_order',
+    		'post_status' => 'publish',
+    		'posts_per_page' => -1,
+    		'tax_query' => array($status_args)
+    	);
+
+    } else {
+
+    	$args = array(
+    		'post_type'	=> 'shop_order',
+    		'posts_per_page' => -1,
+
+    	);
+
+        if($status!="" && isset($status)) {
+    	    $args['post_status'] = 'wc-'.$status;
+    	}
+
+    }
 	
 	add_filter('posts_where','WooParc_filter');
 	$loop = new WP_Query( $args );

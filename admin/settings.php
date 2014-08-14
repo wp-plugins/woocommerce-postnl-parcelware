@@ -1,4 +1,4 @@
-<?php 
+<?php
 if ( ! defined("ABSPATH" ) ) exit; // Exit if accessed directly
 
 /**
@@ -101,12 +101,29 @@ function WooParc_page() {
 										<option value="" <?php selected( get_option("wooparc_orderstatus" ), ''); ?>><?php _e("All statusses", "woo-parc" ); ?></option>
 									<?php
 										// retrieve all active WooCommerce order statuses
-										$statuses = get_terms("shop_order_status", array("hide_empty" => false ) );
-										foreach( $statuses as $status ) {
-										  ?>
-										  <option value="<?php echo $status->slug;?>" <?php selected( get_option("wooparc_orderstatus" ), $status->slug ); ?>><?php _e($status->name,"woocommerce");?></option>
-										  <?php 
-										}
+                                        if (function_exists('wc_get_order_statuses')) {
+
+                                            $statuses = wc_get_order_statuses();
+                                            ksort($statuses);
+
+                                            foreach($statuses as $status => $status_name ) {
+
+                                                $status = str_replace('wc-', '', $status);
+    										  ?>
+    										  <option value="<?php echo $status;?>" <?php selected( get_option("wooparc_orderstatus" ), $status ); ?>><?php _e( $status_name,"woocommerce");?></option>
+    										  <?php
+    										}
+
+                                        } else {
+
+    										$statuses = get_terms("shop_order_status", array("hide_empty" => false ) );
+    										foreach( $statuses as $status ) {
+    										  ?>
+    										  <option value="<?php echo $status->slug;?>" <?php selected( get_option("wooparc_orderstatus" ), $status->slug ); ?>><?php _e($status->name,"woocommerce");?></option>
+    										  <?php
+    										}
+
+                                        }
 									?>
 									</select>
 								</td>
