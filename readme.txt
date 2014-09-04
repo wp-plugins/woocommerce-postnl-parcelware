@@ -2,7 +2,7 @@
 Contributors: bpluijms
 Tags: woocommerce, postnl, parcelware
 Requires at least: 3.3
-Tested up to: 4.0-beta3
+Tested up to: 4.0
 Stable tag: 0.4.2
 License: GPLv2
 
@@ -45,7 +45,7 @@ WooCommerce PostNL Parcelware PRO werkt met Parcelware Desktop en Parcelware Web
 Voor een volledig overzicht van alle PRO functies bezoek je [onze website](http://wpfortune.com/shop/plugins/woocommerce-parcelware-postnl/).
 
 
-This plugin is compatible with Wordpress 4.0-beta3 and WooCommerce 2.2.0-bleeding.
+This plugin is compatible with Wordpress 4.0 and WooCommerce 2.2.0-bleeding.
 
 == Installation ==
 
