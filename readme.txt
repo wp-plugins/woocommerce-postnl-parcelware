@@ -2,7 +2,7 @@
 Contributors: bpluijms
 Tags: woocommerce, postnl, parcelware
 Requires at least: 3.3
-Tested up to: 4.0
+Tested up to: 4.3
 Stable tag: 0.4.2
 License: GPLv2
 
@@ -13,7 +13,7 @@ This plugin exports all selected orders to PostNL Parcelware Desktop.
 The _WooCommerce PostNL Parcelware plugin_ creates importable CSV files from your WooCommerce webshop Desktop.
 Quickly create a CSV file for Parcelware.
 
-For more information, check out [our website](http://wpfortune.com/shop/plugins/woocommerce-parcelware-postnl/).
+For more information, check out [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 **Free version**
 
@@ -27,7 +27,7 @@ If you want more options and support you can buy WooCommerce PostNL Parcelware P
 
 **PRO version**
 
-For a full list of features, please visit [our website](http://wpfortune.com/shop/plugins/woocommerce-parcelware-postnl/).
+For a full list of features, please visit [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 **Dutch / Nederlands**
 
@@ -42,10 +42,10 @@ Ook vanuit de bestelling detail pagina kan je naar Parcelware exporteren en de *
 
 Met de betaalde versie van WooCommerce PostNL Parcelware heb je nog meer mogelijkheden, waaronder het in "bulk" exporteren van diverse bestellingen vanuit de besteloverzicht pagina en het automatisch wijzigen van de bestelstatus na exporteren.
 WooCommerce PostNL Parcelware PRO werkt met Parcelware Desktop en Parcelware Web. 
-Voor een volledig overzicht van alle PRO functies bezoek je [onze website](http://wpfortune.com/shop/plugins/woocommerce-parcelware-postnl/).
+Voor een volledig overzicht van alle PRO functies bezoek je [onze website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 
-This plugin is compatible with Wordpress 4.0 and WooCommerce 2.2.0-bleeding.
+This plugin is compatible with Wordpress 4.3 and WooCommerce 2.3.x.
 
 == Installation ==
 
@@ -87,14 +87,14 @@ Go to WooCommerce > Parcelware, configure and start exporting. Simple!
 
 == Frequently Asked Questions ==
 = Where can I find more information about this plugin? =
-You can find more information on [our website](http://wpfortune.com/shop/plugins/woocommerce-parcelware-postnl/).
+You can find more information on [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 = Does the Free version work with Parcelware Web? =
 No, Free doesn't work with Parcelware Web. If you want to export to Parcelware Web, please use PRO.
 
 = What is the difference between the Free and Pro versions of this plugin? = 
-You may use the free version as it is. When you buy WooCommerce Parcelware for PostNL you get a lot more options: export to Parcelware Web, import orders in Parcelware from a http feed *, bulk export of selected orders, specify orders from shipping class, change order status after export.
-For a full list of features, please check out [our website](http://wpfortune.com/shop/plugins/woocommerce-parcelware-postnl/).
+You may use the free version as it is. When you buy WooCommerce PostNL Parcelware PRO you get a lot more options: export to Parcelware Web, import orders in Parcelware from a http feed *, bulk export of selected orders, specify orders from shipping class, change order status after export.
+For a full list of features, please check out [our website](http://wordpress.geev.nl/product/woocommerce-postnl-parcelware/).
 
 = Why is there a PRO version? = 
-We want to give everyone the opportunity to use and try our plugins, but if you want to get more options and access to our support section you can buy our PRO version. WooCommerce Parcelware for PostNL costs only **&euro; 50,00**.
+We want to give everyone the opportunity to use and try our plugins, but if you want to get more options and access to our support section you can buy our PRO version. WooCommerce PostNL Parcelware Pro costs only **&euro; 49,00**.
